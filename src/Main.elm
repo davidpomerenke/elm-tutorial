@@ -209,8 +209,10 @@ repeat s =
 
         Nothing ->
             Nothing
-repeat : Maybe String -> Maybe String
-repeat s =
+
+
+repeat_2 : Maybe String -> Maybe String
+repeat_2 s =
     Maybe.map (\a -> a ++ a) s
 
 
